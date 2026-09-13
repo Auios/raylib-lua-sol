@@ -32,7 +32,7 @@ jobs:
           - compiler: mingw-w64
             platform_name: "MinGW Makefiles"
           - compiler: msvc
-            platform_name: "Visual Studio 17 2022"
+            platform_name: "Visual Studio 18 2026"
     steps:
       - uses: actions/checkout@v4
         with:
